@@ -1,0 +1,47 @@
+.row {
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row__title {
+  margin-bottom: 10px;
+}
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row__poster {
+  width: 180px;
+  height: 300px;
+  object-fit: contain;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 550ms;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .row__poster {
+    width: 120px;
+    height: 150px;
+    margin-right: -12px;
+  }
+  .row__title {
+    font-size: 18px;
+  }
+  .row {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  color: #ffffff;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer__links a img {
+  width: 30px;
+  margin-right: 10px;
+}

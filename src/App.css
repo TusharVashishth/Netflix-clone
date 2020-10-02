@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+.app {
+  background-color: #111;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
